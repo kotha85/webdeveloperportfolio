@@ -46,14 +46,74 @@ nav  a{
 
 .header{
     background: #FFF8F3;
+    background-image: url(https://img.freepik.com/free-vector/wavy-background-with-copy-space_52683-65230.jpg?w=1380&t=st=1688832161~exp=1688832761~hmac=220ff94e4ff6985b4c62f64b697d607226a1395146157f6976005f2d4bbddf9f);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-     padding:30px 30px 30px 150px; 
+     padding:30px 30px 0px 150px; 
      display: flex;
      align-items: center;
+     justify-content: space-between;
 }
 
 .banner .profilepic{
     width:600px
+}
+.banner-content{
+     max-width: 700px; 
+}
+
+.banner-ruff{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-ill{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.about{
+    padding:130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info-des{
+    font-size: medium;
+}
+
+.info-title{
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.about-info{
+    text-align: center;
 }
